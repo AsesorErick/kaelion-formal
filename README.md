@@ -22,8 +22,9 @@ This repository contains rigorous mathematical derivations connecting Kaelion to
 | Formal 1 | Category Theory | 6/6 | Kaelion is initial in category Ent |
 | Formal 2 | LQG Explicit | 6/6 | α = -0.5 from spin networks |
 | Formal 3 | String Theory | 6/6 | α = -1.5 from AdS/CFT |
+| Formal 4 | Field Theory | 6/6 | λ(x,t) as dynamical order parameter |
 
-**Total: 18/18 tests (100%)**
+**Total: 24/24 tests (100%)**
 
 ---
 
@@ -55,6 +56,16 @@ This repository contains rigorous mathematical derivations connecting Kaelion to
 - Cardy formula for CFT entropy
 - Swampland consistency checks
 - **Result:** α_CFT = -3/2 from holography
+
+### Formal 4: Field Theory of λ
+**Location:** `field_theory/formal4_field.py`
+
+- λ promoted from parameter to dynamical field λ(x,t)
+- Action: S[λ] = ∫ [½(∂λ)² - V(λ) + ξRλ(1-λ)] √(-g) d⁴x
+- Double-well potential V(λ) = μ²λ²(1-λ)²
+- Domain wall solutions between phases
+- Curvature coupling drives phase selection
+- **Result:** λ is an ORDER PARAMETER for quantum gravity
 
 ---
 
@@ -90,6 +101,9 @@ The coefficient α = -0.5 follows from spin network state counting with SU(2) ga
 ### Theorem 3 (Holographic Limit)
 The coefficient α = -1.5 is universal for holographic CFTs via Cardy formula.
 
+### Theorem 4 (Dynamical λ)
+λ can be promoted to a dynamical field with action S[λ] admitting domain wall solutions that interpolate between LQG (λ=0) and holographic (λ=1) phases.
+
 ### Corollary (Unification)
 Kaelion α(λ) = -0.5 - λ is the unique linear interpolation connecting LQG and string theory entropy predictions.
 
@@ -119,7 +133,8 @@ kaelion-formal/
 │   └── formal2_lqg.py          # LQG derivation
 ├── string_connection/
 │   └── formal3_string.py       # String/AdS-CFT
-├── field_theory/               # (Future: λ as dynamical field)
+├── field_theory/
+│   └── formal4_field.py        # λ as dynamical field
 └── README.md
 ```
 
