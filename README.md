@@ -2,7 +2,14 @@
 
 **Advanced Mathematical Foundations of the Kaelion Correspondence**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18250888.svg)](https://doi.org/10.5281/zenodo.18250888)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18262960.svg)](https://doi.org/10.5281/zenodo.18262960)
+```
+
+---
+
+## Commit message:
+```
+Update DOI badge to v2.0
 
 ## Overview
 
