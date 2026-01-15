@@ -1,0 +1,46 @@
+
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,graphicx}
+\title{Kaelion 4.0 Toy Model: Emergent AdS$_2$ Geometry from Information Accessibility}
+\author{Erick Perez}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We present a minimal toy model demonstrating that an AdS$_2$ geometry emerges as an output
+of an information-theoretic renormalization flow. No gravitational or spacetime assumptions
+are made. Geometry arises solely from the dynamics of information accessibility.
+\end{abstract}
+
+\section{Toy Model}
+We consider a scrambling quantum system and define the information accessibility parameter
+$\lambda(t)$ as the average fraction of operator support accessible to a local observer.
+
+\section{RG Flow}
+Empirically and analytically, $\lambda$ obeys
+\begin{equation}
+\frac{d\lambda}{d\ln t} = -c\,\lambda(1-\lambda).
+\end{equation}
+The solution is
+\begin{equation}
+\lambda(t) = \frac{1}{1+(t/t_*)^c}.
+\end{equation}
+
+\section{Emergent Geometry}
+Defining the emergent coordinate $z=-k\ln\lambda$, the RG flow becomes a translation in $z$.
+Requiring RG invariance of the effective metric uniquely yields
+\begin{equation}
+ds^2 = \frac{L^2}{u^2}(du^2 + dx^2),
+\end{equation}
+which is Euclidean AdS$_2$.
+
+\section{Corollary: Kaelion v3.0 Limit}
+At RG fixed points, we recover the entropy correction
+\begin{equation}
+\alpha = -\frac{1}{2}-\lambda,
+\end{equation}
+reproducing Kaelion v3.0 as a limiting theory.
+
+\end{document}
