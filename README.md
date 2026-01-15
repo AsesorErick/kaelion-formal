@@ -6,10 +6,6 @@
 
 ---
 
-## Commit message:
-
-Update DOI badge to v2.0
-
 ## Overview
 
 This repository contains rigorous mathematical derivations connecting Kaelion to established theoretical physics frameworks.
